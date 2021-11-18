@@ -13,20 +13,22 @@
         android:layout_height="wrap_content"
         android:background="@color/white"
         android:hint="@string/custo_do_servi_o"
-        android:hintTextColor="#F5F5F5"
+
         android:importantForAutofill="no"
         android:inputType="numberDecimal"
         android:minHeight="48dp"
         android:textColor="#000000"
+        android:textColorHint="@color/black"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="TextContrastCheck,TextContrastCheck" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/pergunta_servico"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/servico_pergunta"
+        android:textColorHint="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/custo_do_servico" />
 
