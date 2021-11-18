@@ -18,7 +18,7 @@
         android:inputType="numberDecimal"
         android:minHeight="48dp"
         android:textColor="#000000"
-        android:textColorHint="@color/black"
+        android:textColorHint="#5E5959"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
